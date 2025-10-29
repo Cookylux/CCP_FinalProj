@@ -28,7 +28,7 @@ namespace CCP_FinalProj
                 label2.ForeColor = yellow;
                 label1.ForeColor = yellow;
                 label3.ForeColor = yellow;
-                string logopath = @"CC:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\567609274_1336539038208660_6300572118458079317_n-removebg-preview.png";
+                string logopath = @"C:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\567609274_1336539038208660_6300572118458079317_n-removebg-preview.png";
                 Image logo = Image.FromFile(logopath);
                 pblogo.Image = logo;
                 Color lightcanary = ColorTranslator.FromHtml("#ffeaa2");

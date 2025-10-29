@@ -81,7 +81,7 @@ namespace CCP_FinalProj
                 lbsignup.ForeColor = lightsilver;
                 Color green = ColorTranslator.FromHtml("#54755a");
                 tabPage3.BackColor = green;
-                string logopath = @"CC:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\slytherin.jpeg";
+                string logopath = @"C:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\IMG_1539-removebg-preview.png";
                 Image logo = Image.FromFile(logopath);
                 pblogo.Image = logo;
             }
