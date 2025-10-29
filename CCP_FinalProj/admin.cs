@@ -28,7 +28,7 @@ namespace CCP_FinalProj
                 label2.ForeColor = yellow;
                 label1.ForeColor = yellow;
                 label3.ForeColor = yellow;
-                string logopath = @"C:\Users\rieje\source\repos\CCP_FinalProj\CCP_FinalProj\Resources\567609274_1336539038208660_6300572118458079317_n-removebg-preview.png";
+                string logopath = @"CC:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\567609274_1336539038208660_6300572118458079317_n-removebg-preview.png";
                 Image logo = Image.FromFile(logopath);
                 pblogo.Image = logo;
                 Color lightcanary = ColorTranslator.FromHtml("#ffeaa2");
@@ -44,7 +44,7 @@ namespace CCP_FinalProj
                 label1.ForeColor = lightsilver;
                 label2.ForeColor = lightsilver;
                 label3.ForeColor = lightsilver;
-                string logopath = @"C:\Users\rieje\source\repos\CCP_FinalProj\CCP_FinalProj\Resources\IMG_1539-removebg-preview.png";
+                string logopath = @"C:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\IMG_1539-removebg-preview.png";
                 Image logo = Image.FromFile(logopath);
                 pblogo.Image = logo;
                 Color green = ColorTranslator.FromHtml("#54755a");
@@ -59,7 +59,7 @@ namespace CCP_FinalProj
                 label1.ForeColor = gold;
                 label2.ForeColor = gold;
                 label3.ForeColor = gold;
-                string logopath = @"C:\Users\rieje\source\repos\CCP_FinalProj\CCP_FinalProj\Resources\IMG_1539-removebg-preview.png";
+                string logopath = @"C:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\IMG_1539-removebg-preview.png";
                 Image logo = Image.FromFile(logopath);
                 pblogo.Image = logo;
                 
@@ -73,7 +73,7 @@ namespace CCP_FinalProj
                 label1.ForeColor = lightcanary;
                 label2.ForeColor = lightcanary;
                 label3.ForeColor = lightcanary;
-                string logopath = @"C:\Users\rieje\source\repos\CCP_FinalProj\CCP_FinalProj\Resources\IMG_1540-removebg-preview.png";
+                string logopath = @"C:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\IMG_1540-removebg-preview.png";
                 Image logo= Image.FromFile(logopath);
                 pblogo.Image = logo;
             }
@@ -89,7 +89,7 @@ namespace CCP_FinalProj
             label2.ForeColor = yellow;
             label1.ForeColor = yellow;
             label3.ForeColor = yellow;
-            string logopath = @"C:\Users\rieje\source\repos\CCP_FinalProj\CCP_FinalProj\Resources\567609274_1336539038208660_6300572118458079317_n-removebg-preview.png";
+            string logopath = @"C:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\567609274_1336539038208660_6300572118458079317_n-removebg-preview.png";
             Image logo = Image.FromFile(logopath);
             pblogo.Image = logo;
             Color lightcanary = ColorTranslator.FromHtml("#ffeaa2");
