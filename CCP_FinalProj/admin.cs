@@ -64,7 +64,7 @@ namespace CCP_FinalProj
                 pblogo.Image = logo;
                 
             }
-            //resevation
+            //resevations
             if (tabControl1.SelectedIndex == 3) 
             {
                 Color darkbrown = ColorTranslator.FromHtml("#372e29");

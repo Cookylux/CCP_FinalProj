@@ -53,7 +53,7 @@ namespace CCP_FinalProj
                 pblogo.Image = logo;
                 
             }
-            //room and suites
+            //room and suite
             if (tabControl1.SelectedIndex == 1)
             {
                 Color darkred = ColorTranslator.FromHtml("#740001");
