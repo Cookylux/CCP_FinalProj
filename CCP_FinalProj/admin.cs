@@ -47,8 +47,6 @@ namespace CCP_FinalProj
                 string logopath = @"C:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\IMG_1539-removebg-preview.png";
                 Image logo = Image.FromFile(logopath);
                 pblogo.Image = logo;
-                Color green = ColorTranslator.FromHtml("#54755a");
-                tabPage2.BackColor = green;
             }
             //room
             if(tabControl1.SelectedIndex == 2)
@@ -95,5 +93,7 @@ namespace CCP_FinalProj
             Color lightcanary = ColorTranslator.FromHtml("#ffeaa2");
             tabPage1.BackColor = lightcanary;
         }
+
+        
     }
 }
