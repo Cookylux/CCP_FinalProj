@@ -309,7 +309,7 @@
             this.pictureBox5.BackColor = System.Drawing.Color.SeaShell;
             this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox5.Image = global::CCP_FinalProj.Properties.Resources._67b2b7a78035bc3ba99a7787;
-            this.pictureBox5.Location = new System.Drawing.Point(615, 402);
+            this.pictureBox5.Location = new System.Drawing.Point(627, 402);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(335, 173);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
