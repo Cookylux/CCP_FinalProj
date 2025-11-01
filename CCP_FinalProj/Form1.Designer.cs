@@ -805,7 +805,7 @@
             this.tabPage3.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage3.Size = new System.Drawing.Size(1689, 638);
+            this.tabPage3.Size = new System.Drawing.Size(1744, 638);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "About Us";
             // 
@@ -813,7 +813,7 @@
             // 
             this.label50.AutoSize = true;
             this.label50.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(252, 125);
+            this.label50.Location = new System.Drawing.Point(291, 125);
             this.label50.Name = "label50";
             this.label50.Size = new System.Drawing.Size(326, 31);
             this.label50.TabIndex = 3;
@@ -831,9 +831,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(269, 165);
+            this.label7.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(293, 169);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(704, 138);
+            this.label7.Size = new System.Drawing.Size(743, 144);
             this.label7.TabIndex = 1;
             this.label7.Text = resources.GetString("label7.Text");
             // 
@@ -841,7 +842,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(181, 71);
+            this.label6.Location = new System.Drawing.Point(252, 81);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(111, 31);
             this.label6.TabIndex = 0;
@@ -864,18 +865,18 @@
             this.tabPage4.Margin = new System.Windows.Forms.Padding(4);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(4);
-            this.tabPage4.Size = new System.Drawing.Size(1689, 638);
+            this.tabPage4.Size = new System.Drawing.Size(1744, 638);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Contact Us";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Georgia", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label5.Location = new System.Drawing.Point(286, 118);
+            this.label5.Location = new System.Drawing.Point(286, 140);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(683, 42);
+            this.label5.Size = new System.Drawing.Size(878, 54);
             this.label5.TabIndex = 6;
             this.label5.Text = "Our team and staff are ready to assist guests for their reservations problems, in" +
     "quires\r\nand special requests.";
@@ -883,43 +884,44 @@
             // label55
             // 
             this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Georgia", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label55.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label55.Location = new System.Drawing.Point(169, 77);
+            this.label55.Location = new System.Drawing.Point(253, 95);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(559, 23);
+            this.label55.Size = new System.Drawing.Size(676, 27);
             this.label55.TabIndex = 5;
             this.label55.Text = "Want to experience an enchantment feeling? contact us!";
             // 
             // label54
             // 
             this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label54.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label54.Location = new System.Drawing.Point(286, 204);
+            this.label54.Location = new System.Drawing.Point(287, 248);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(188, 21);
+            this.label54.Size = new System.Drawing.Size(210, 24);
             this.label54.TabIndex = 4;
             this.label54.Text = "Visit Us: Caloocan city";
             // 
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label52.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label52.Location = new System.Drawing.Point(286, 234);
+            this.label52.Location = new System.Drawing.Point(287, 279);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(355, 21);
+            this.label52.Size = new System.Drawing.Size(395, 24);
             this.label52.TabIndex = 2;
             this.label52.Text = "Email: reservations@hogwoodsmanor.com";
             // 
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Georgia", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label51.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label51.Location = new System.Drawing.Point(286, 265);
+            this.label51.Location = new System.Drawing.Point(287, 312);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(177, 21);
+            this.label51.Size = new System.Drawing.Size(194, 24);
             this.label51.TabIndex = 1;
             this.label51.Text = "Phone: 09293751217";
             // 
