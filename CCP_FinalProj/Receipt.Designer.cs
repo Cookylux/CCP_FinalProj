@@ -352,7 +352,7 @@
             this.lbl_children.BackColor = System.Drawing.SystemColors.ControlText;
             this.lbl_children.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_children.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_children.Location = new System.Drawing.Point(208, 439);
+            this.lbl_children.Location = new System.Drawing.Point(208, 441);
             this.lbl_children.Name = "lbl_children";
             this.lbl_children.Size = new System.Drawing.Size(89, 20);
             this.lbl_children.TabIndex = 23;

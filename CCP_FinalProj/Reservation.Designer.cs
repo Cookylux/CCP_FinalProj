@@ -315,7 +315,7 @@
             // 
             this.cmb_roomtype.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmb_roomtype.FormattingEnabled = true;
-            this.cmb_roomtype.Location = new System.Drawing.Point(594, 270);
+            this.cmb_roomtype.Location = new System.Drawing.Point(594, 271);
             this.cmb_roomtype.Name = "cmb_roomtype";
             this.cmb_roomtype.Size = new System.Drawing.Size(156, 32);
             this.cmb_roomtype.TabIndex = 23;

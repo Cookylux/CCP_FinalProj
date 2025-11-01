@@ -47,9 +47,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button5 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.lbl_backbutton = new System.Windows.Forms.Label();
-            this.pblogo = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.pblogo = new System.Windows.Forms.PictureBox();
+            this.lbl_backbutton = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pblogo)).BeginInit();
@@ -221,15 +221,17 @@
             this.panel1.TabIndex = 7;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // lbl_backbutton
+            // label3
             // 
-            this.lbl_backbutton.AutoSize = true;
-            this.lbl_backbutton.Location = new System.Drawing.Point(12, 9);
-            this.lbl_backbutton.Name = "lbl_backbutton";
-            this.lbl_backbutton.Size = new System.Drawing.Size(38, 16);
-            this.lbl_backbutton.TabIndex = 8;
-            this.lbl_backbutton.Text = "Back";
-            this.lbl_backbutton.Click += new System.EventHandler(this.lbl_backbutton_Click);
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.SeaShell;
+            this.label3.Location = new System.Drawing.Point(209, 42);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(345, 55);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Hogwoods Minor";
             // 
             // pblogo
             // 
@@ -242,17 +244,15 @@
             this.pblogo.TabIndex = 3;
             this.pblogo.TabStop = false;
             // 
-            // label3
+            // lbl_backbutton
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Palatino Linotype", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.SeaShell;
-            this.label3.Location = new System.Drawing.Point(222, 40);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(345, 55);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Hogwoods Minor";
+            this.lbl_backbutton.AutoSize = true;
+            this.lbl_backbutton.Location = new System.Drawing.Point(12, 9);
+            this.lbl_backbutton.Name = "lbl_backbutton";
+            this.lbl_backbutton.Size = new System.Drawing.Size(38, 16);
+            this.lbl_backbutton.TabIndex = 8;
+            this.lbl_backbutton.Text = "Back";
+            this.lbl_backbutton.Click += new System.EventHandler(this.lbl_backbutton_Click);
             // 
             // OrderDatabase
             // 
