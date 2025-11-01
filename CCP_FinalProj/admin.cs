@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace CCP_FinalProj
 {
@@ -24,13 +25,14 @@ namespace CCP_FinalProj
             {
                 Color darkred = ColorTranslator.FromHtml("#740001");
                 panel1.BackColor = darkred;
+
                 Color yellow = ColorTranslator.FromHtml("#eeba30");
                 label2.ForeColor = yellow;
                 label1.ForeColor = yellow;
                 label3.ForeColor = yellow;
-                string logopath = @"C:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\567609274_1336539038208660_6300572118458079317_n-removebg-preview.png";
-                Image logo = Image.FromFile(logopath);
-                pblogo.Image = logo;
+
+
+                pblogo.Image = Properties.Resources._567609274_1336539038208660_6300572118458079317_n_removebg_preview;
                 Color lightcanary = ColorTranslator.FromHtml("#ffeaa2");
                 tabPage1.BackColor = lightcanary;
 
@@ -44,9 +46,8 @@ namespace CCP_FinalProj
                 label1.ForeColor = lightsilver;
                 label2.ForeColor = lightsilver;
                 label3.ForeColor = lightsilver;
-                string logopath = @"C:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\IMG_1539-removebg-preview.png";
-                Image logo = Image.FromFile(logopath);
-                pblogo.Image = logo;
+                
+                pblogo.Image = Properties.Resources.IMG_1539_removebg_preview;
             }
             //room
             if(tabControl1.SelectedIndex == 2)
@@ -57,10 +58,10 @@ namespace CCP_FinalProj
                 label1.ForeColor = gold;
                 label2.ForeColor = gold;
                 label3.ForeColor = gold;
-                string logopath = @"C:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\IMG_1539-removebg-preview.png";
-                Image logo = Image.FromFile(logopath);
-                pblogo.Image = logo;
-                
+               
+                pblogo.Image = Properties.Resources.ravenclaw;
+
+
             }
             //resevations
             if (tabControl1.SelectedIndex == 3) 
@@ -71,9 +72,8 @@ namespace CCP_FinalProj
                 label1.ForeColor = lightcanary;
                 label2.ForeColor = lightcanary;
                 label3.ForeColor = lightcanary;
-                string logopath = @"C:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\IMG_1540-removebg-preview.png";
-                Image logo= Image.FromFile(logopath);
-                pblogo.Image = logo;
+                
+                pblogo.Image = Properties.Resources.IMG_1540_removebg_preview;
             }
 
         }
@@ -87,13 +87,16 @@ namespace CCP_FinalProj
             label2.ForeColor = yellow;
             label1.ForeColor = yellow;
             label3.ForeColor = yellow;
-            string logopath = @"C:\Users\rieje\Desktop\FinalProj_CCP\CCP_FinalProj\Resources\567609274_1336539038208660_6300572118458079317_n-removebg-preview.png";
-            Image logo = Image.FromFile(logopath);
-            pblogo.Image = logo;
+            
+            pblogo.Image = Properties.Resources._567609274_1336539038208660_6300572118458079317_n_removebg_preview;
             Color lightcanary = ColorTranslator.FromHtml("#ffeaa2");
             tabPage1.BackColor = lightcanary;
         }
 
-        
+        private void btn_Database_Click(object sender, EventArgs e)
+        {
+            OrderDatabase orderDatabase = new OrderDatabase();
+            orderDatabase.Show();
+        }
     }
 }

@@ -73,6 +73,16 @@ namespace CCP_FinalProj.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _67b2b7a78035bc3ba99a7787 {
+            get {
+                object obj = ResourceManager.GetObject("67b2b7a78035bc3ba99a7787", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _9f3365782b2bc5dbe8bbfd103b1f5e7c {
             get {
                 object obj = ResourceManager.GetObject("9f3365782b2bc5dbe8bbfd103b1f5e7c", resourceCulture);
@@ -86,6 +96,26 @@ namespace CCP_FinalProj.Properties {
         internal static System.Drawing.Bitmap bedroom {
             get {
                 object obj = ResourceManager.GetObject("bedroom", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap deluxe_room_king_1_2000px {
+            get {
+                object obj = ResourceManager.GetObject("deluxe-room-king-1-2000px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap family_room_1_700x430 {
+            get {
+                object obj = ResourceManager.GetObject("family-room-1-700x430", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +153,29 @@ namespace CCP_FinalProj.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Pres_Suite_1_DSC_1906_scaled {
+            get {
+                object obj = ResourceManager.GetObject("Pres-Suite-1-DSC_1906-scaled", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ravenclaw {
             get {
                 object obj = ResourceManager.GetObject("ravenclaw", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Royal_National_Standard_Single_4 {
+            get {
+                object obj = ResourceManager.GetObject("Royal_National_Standard_Single_4", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -146,6 +196,16 @@ namespace CCP_FinalProj.Properties {
         internal static System.Drawing.Bitmap slytherinbg {
             get {
                 object obj = ResourceManager.GetObject("slytherinbg", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap The_Resident_Victoria_double_room_1400x928 {
+            get {
+                object obj = ResourceManager.GetObject("The-Resident-Victoria-double-room-1400x928", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

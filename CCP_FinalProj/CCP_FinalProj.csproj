@@ -64,12 +64,30 @@
     <Compile Include="login.Designer.cs">
       <DependentUpon>login.cs</DependentUpon>
     </Compile>
+    <Compile Include="OrderDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderDatabase.Designer.cs">
+      <DependentUpon>OrderDatabase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Receipt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receipt.Designer.cs">
+      <DependentUpon>Receipt.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reservation.Designer.cs">
+      <DependentUpon>Reservation.cs</DependentUpon>
     </Compile>
     <Compile Include="signup.cs">
       <SubType>Form</SubType>
@@ -92,10 +110,19 @@
     <EmbeddedResource Include="login.resx">
       <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OrderDatabase.resx">
+      <DependentUpon>OrderDatabase.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receipt.resx">
+      <DependentUpon>Receipt.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reservation.resx">
+      <DependentUpon>Reservation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="signup.resx">
       <DependentUpon>signup.cs</DependentUpon>
@@ -117,34 +144,60 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\735239814b6155298efb8341d55293b3.jpg" />
+    <None Include="Resources\67b2b7a78035bc3ba99a7787.png" />
+    <Content Include="Resources\735239814b6155298efb8341d55293b3.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="Resources\The-Resident-Victoria-double-room-1400x928.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\9f3365782b2bc5dbe8bbfd103b1f5e7c.jpg" />
+    <Content Include="Resources\9f3365782b2bc5dbe8bbfd103b1f5e7c.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\bedroom.jpeg" />
+    <Content Include="Resources\bedroom.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\slytherin.jpeg" />
+    <None Include="Resources\Royal_National_Standard_Single_4.png" />
+    <None Include="Resources\deluxe-room-king-1-2000px.png" />
+    <None Include="Resources\family-room-1-700x430.png" />
+    <None Include="Resources\Pres-Suite-1-DSC_1906-scaled.png" />
+    <Content Include="Resources\slytherin.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\slytherinbg.jpg" />
+    <Content Include="Resources\slytherinbg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\hufflepuff.jpg" />
+    <Content Include="Resources\hufflepuff.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\567609274_1336539038208660_6300572118458079317_n-removebg-preview.png" />
+    <Content Include="Resources\567609274_1336539038208660_6300572118458079317_n-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\IMG_1539-removebg-preview.png" />
+    <Content Include="Resources\IMG_1539-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\IMG_1540-removebg-preview.png" />
+    <Content Include="Resources\IMG_1540-removebg-preview.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\ravenclaw.jpg" />
+    <Content Include="Resources\ravenclaw.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
