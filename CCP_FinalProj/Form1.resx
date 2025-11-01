@@ -117,4 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label7.Text" xml:space="preserve">
+    <value>At hogwoods manor, we belive that every stay is memorable and create wonderful 
+memories for our guests to stay with us for a while
+
+From beautiful designed rooms to our services staff providing needs to all, 
+we provide our guests with luxury, comfortness and heartwarming
+hospitality.</value>
+  </data>
 </root>
