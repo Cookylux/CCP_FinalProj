@@ -44,5 +44,12 @@ namespace CCP_FinalProj
             Receipt receipt = new Receipt();
             receipt.Show();
         }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+            Form1 home = new Form1();
+            home.Show();
+            this.Hide();
+        }
     }
 }

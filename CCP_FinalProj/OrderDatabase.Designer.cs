@@ -71,11 +71,12 @@
             this.Column10,
             this.Column11,
             this.Column12});
-            this.dataGridView1.Location = new System.Drawing.Point(12, 223);
+            this.dataGridView1.Location = new System.Drawing.Point(9, 181);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(1354, 460);
+            this.dataGridView1.Size = new System.Drawing.Size(1016, 374);
             this.dataGridView1.TabIndex = 0;
             // 
             // Column1
@@ -165,9 +166,10 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(12, 707);
+            this.button1.Location = new System.Drawing.Point(9, 574);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(160, 39);
+            this.button1.Size = new System.Drawing.Size(120, 32);
             this.button1.TabIndex = 1;
             this.button1.Text = "Delete";
             this.button1.UseVisualStyleBackColor = true;
@@ -175,9 +177,10 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(188, 707);
+            this.button3.Location = new System.Drawing.Point(141, 574);
+            this.button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(160, 39);
+            this.button3.Size = new System.Drawing.Size(120, 32);
             this.button3.TabIndex = 3;
             this.button3.Text = "Add";
             this.button3.UseVisualStyleBackColor = true;
@@ -185,9 +188,10 @@
             // button4
             // 
             this.button4.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.Location = new System.Drawing.Point(367, 707);
+            this.button4.Location = new System.Drawing.Point(275, 574);
+            this.button4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(160, 39);
+            this.button4.Size = new System.Drawing.Size(120, 32);
             this.button4.TabIndex = 4;
             this.button4.Text = "Update";
             this.button4.UseVisualStyleBackColor = true;
@@ -195,17 +199,19 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(12, 185);
+            this.textBox1.Location = new System.Drawing.Point(262, 149);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(685, 27);
+            this.textBox1.Size = new System.Drawing.Size(476, 23);
             this.textBox1.TabIndex = 5;
             // 
             // button5
             // 
             this.button5.Font = new System.Drawing.Font("Georgia", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(703, 185);
+            this.button5.Location = new System.Drawing.Point(742, 150);
+            this.button5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(136, 27);
+            this.button5.Size = new System.Drawing.Size(102, 22);
             this.button5.TabIndex = 6;
             this.button5.Text = "Search";
             this.button5.UseVisualStyleBackColor = true;
@@ -215,9 +221,10 @@
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel1.Controls.Add(this.label3);
             this.panel1.Controls.Add(this.pblogo);
-            this.panel1.Location = new System.Drawing.Point(12, 29);
+            this.panel1.Location = new System.Drawing.Point(9, 24);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1354, 138);
+            this.panel1.Size = new System.Drawing.Size(1016, 112);
             this.panel1.TabIndex = 7;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -226,10 +233,9 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Palatino Linotype", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.SeaShell;
-            this.label3.Location = new System.Drawing.Point(209, 42);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(157, 34);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(345, 55);
+            this.label3.Size = new System.Drawing.Size(279, 44);
             this.label3.TabIndex = 4;
             this.label3.Text = "Hogwoods Minor";
             // 
@@ -237,9 +243,8 @@
             // 
             this.pblogo.Image = global::CCP_FinalProj.Properties.Resources._567609274_1336539038208660_6300572118458079317_n_removebg_preview;
             this.pblogo.Location = new System.Drawing.Point(0, 0);
-            this.pblogo.Margin = new System.Windows.Forms.Padding(4);
             this.pblogo.Name = "pblogo";
-            this.pblogo.Size = new System.Drawing.Size(201, 138);
+            this.pblogo.Size = new System.Drawing.Size(151, 112);
             this.pblogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pblogo.TabIndex = 3;
             this.pblogo.TabStop = false;
@@ -247,19 +252,20 @@
             // lbl_backbutton
             // 
             this.lbl_backbutton.AutoSize = true;
-            this.lbl_backbutton.Location = new System.Drawing.Point(12, 9);
+            this.lbl_backbutton.Location = new System.Drawing.Point(9, 7);
+            this.lbl_backbutton.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lbl_backbutton.Name = "lbl_backbutton";
-            this.lbl_backbutton.Size = new System.Drawing.Size(38, 16);
+            this.lbl_backbutton.Size = new System.Drawing.Size(32, 13);
             this.lbl_backbutton.TabIndex = 8;
             this.lbl_backbutton.Text = "Back";
             this.lbl_backbutton.Click += new System.EventHandler(this.lbl_backbutton_Click);
             // 
             // OrderDatabase
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CCP_FinalProj.Properties.Resources._9f3365782b2bc5dbe8bbfd103b1f5e7c;
-            this.ClientSize = new System.Drawing.Size(1378, 777);
+            this.ClientSize = new System.Drawing.Size(1034, 631);
             this.Controls.Add(this.lbl_backbutton);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button5);
@@ -268,6 +274,7 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "OrderDatabase";
             this.Text = "OrderDatabase";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -59,7 +59,7 @@ namespace CCP_FinalProj
                 label2.ForeColor = gold;
                 label3.ForeColor = gold;
                
-                pblogo.Image = Properties.Resources.ravenclaw;
+                pblogo.Image = Properties.Resources.IMG_1539_removebg_preview;
 
 
             }
@@ -97,6 +97,24 @@ namespace CCP_FinalProj
         {
             OrderDatabase orderDatabase = new OrderDatabase();
             orderDatabase.Show();
+        }
+
+        private void pblogo_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Form1 home = new Form1();
+            home.Show();
+            this.Hide();
+
         }
     }
 }
