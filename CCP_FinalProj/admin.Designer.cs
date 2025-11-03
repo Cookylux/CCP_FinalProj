@@ -101,9 +101,9 @@
             this.label3.ForeColor = System.Drawing.Color.SeaShell;
             this.label3.Location = new System.Drawing.Point(220, 45);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(279, 44);
+            this.label3.Size = new System.Drawing.Size(285, 44);
             this.label3.TabIndex = 3;
-            this.label3.Text = "Hogwoods Minor";
+            this.label3.Text = "Hogwoods Manor";
             // 
             // pblogo
             // 
@@ -160,7 +160,7 @@
             this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(1265, 481);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Home";
@@ -216,7 +216,7 @@
             this.tabPage2.Controls.Add(this.label8);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(1265, 481);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Users";
@@ -300,7 +300,7 @@
             this.tabPage3.Controls.Add(this.label9);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(1265, 481);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Room Management";
@@ -464,7 +464,7 @@
             this.tabPage4.Controls.Add(this.label15);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(1265, 481);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Reservations";

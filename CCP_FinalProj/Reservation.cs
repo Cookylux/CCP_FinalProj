@@ -41,6 +41,36 @@ namespace CCP_FinalProj
 
         private void btn_pay_Click(object sender, EventArgs e)
         {
+            // TextBoxes
+            string firstname = txt_firstname.Text;
+            string lastname = txt_lastname.Text;
+            string email = txt_email.Text;
+            string contact = txt_contact.Text;
+
+
+            // NumericUpDown
+            int age = (int)numericUpDown_age.Value;
+            int noAdults = (int)numericUpDown_adults.Value;
+            int noChildren = (int)numericUpDown_children.Value;
+
+            // ComboBoxes
+            string roomType = cmb_roomtype.SelectedItem.ToString();
+            string roomNumber = cmb_roomnumber.SelectedItem.ToString();
+
+            // DateTimePickers
+            DateTime checkIn = dtp_checkin.Value;
+            DateTime checkOut = dtp_checkout.Value;
+
+            // CheckBoxes
+            if (cb_student.Checked) { }
+            else if (cb_senior.Checked) { }
+            else if (cb_weekend.Checked) { }
+            else if (cb_family.Checked) { }
+
+            // Total Cost
+            string totalcost = txt_totalcost.Text;
+
+            // Receipt
             Receipt receipt = new Receipt();
             receipt.Show();
         }

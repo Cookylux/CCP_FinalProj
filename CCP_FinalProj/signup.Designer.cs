@@ -29,20 +29,21 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.pblogo = new System.Windows.Forms.PictureBox();
             this.lbhome = new System.Windows.Forms.Label();
             this.lblogin = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnconfirm = new System.Windows.Forms.Button();
             this.terms = new System.Windows.Forms.LinkLabel();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.cb_terms = new System.Windows.Forms.CheckBox();
+            this.txt_confirm = new System.Windows.Forms.TextBox();
+            this.txt_password = new System.Windows.Forms.TextBox();
+            this.txt_contact = new System.Windows.Forms.TextBox();
+            this.txt_bdate = new System.Windows.Forms.TextBox();
+            this.txt_email = new System.Windows.Forms.TextBox();
+            this.txt_username = new System.Windows.Forms.TextBox();
+            this.txt_lastname = new System.Windows.Forms.TextBox();
+            this.txt_firstname = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -52,10 +53,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.pblogo = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pblogo)).BeginInit();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -68,6 +68,16 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1273, 94);
             this.panel1.TabIndex = 1;
+            // 
+            // pblogo
+            // 
+            this.pblogo.Image = global::CCP_FinalProj.Properties.Resources.IMG_1539_removebg_preview;
+            this.pblogo.Location = new System.Drawing.Point(569, 4);
+            this.pblogo.Name = "pblogo";
+            this.pblogo.Size = new System.Drawing.Size(134, 86);
+            this.pblogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pblogo.TabIndex = 3;
+            this.pblogo.TabStop = false;
             // 
             // lbhome
             // 
@@ -98,15 +108,15 @@
             this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel2.Controls.Add(this.btnconfirm);
             this.panel2.Controls.Add(this.terms);
-            this.panel2.Controls.Add(this.checkBox1);
-            this.panel2.Controls.Add(this.textBox8);
-            this.panel2.Controls.Add(this.textBox7);
-            this.panel2.Controls.Add(this.textBox6);
-            this.panel2.Controls.Add(this.textBox5);
-            this.panel2.Controls.Add(this.textBox4);
-            this.panel2.Controls.Add(this.textBox3);
-            this.panel2.Controls.Add(this.textBox2);
-            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.cb_terms);
+            this.panel2.Controls.Add(this.txt_confirm);
+            this.panel2.Controls.Add(this.txt_password);
+            this.panel2.Controls.Add(this.txt_contact);
+            this.panel2.Controls.Add(this.txt_bdate);
+            this.panel2.Controls.Add(this.txt_email);
+            this.panel2.Controls.Add(this.txt_username);
+            this.panel2.Controls.Add(this.txt_lastname);
+            this.panel2.Controls.Add(this.txt_firstname);
             this.panel2.Controls.Add(this.label11);
             this.panel2.Controls.Add(this.label10);
             this.panel2.Controls.Add(this.label9);
@@ -132,6 +142,7 @@
             this.btnconfirm.TabIndex = 19;
             this.btnconfirm.Text = "Confirm";
             this.btnconfirm.UseVisualStyleBackColor = false;
+            this.btnconfirm.Click += new System.EventHandler(this.btnconfirm_Click);
             // 
             // terms
             // 
@@ -147,80 +158,80 @@
             this.terms.Text = "terms and condition";
             this.terms.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.terms_LinkClicked);
             // 
-            // checkBox1
+            // cb_terms
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(126, 396);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(115, 21);
-            this.checkBox1.TabIndex = 17;
-            this.checkBox1.Text = "I agree with the";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.cb_terms.AutoSize = true;
+            this.cb_terms.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cb_terms.Location = new System.Drawing.Point(126, 396);
+            this.cb_terms.Name = "cb_terms";
+            this.cb_terms.Size = new System.Drawing.Size(115, 21);
+            this.cb_terms.TabIndex = 17;
+            this.cb_terms.Text = "I agree with the";
+            this.cb_terms.UseVisualStyleBackColor = true;
             // 
-            // textBox8
+            // txt_confirm
             // 
-            this.textBox8.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox8.Location = new System.Drawing.Point(411, 367);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(257, 22);
-            this.textBox8.TabIndex = 16;
+            this.txt_confirm.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_confirm.Location = new System.Drawing.Point(411, 367);
+            this.txt_confirm.Name = "txt_confirm";
+            this.txt_confirm.Size = new System.Drawing.Size(257, 22);
+            this.txt_confirm.TabIndex = 16;
             // 
-            // textBox7
+            // txt_password
             // 
-            this.textBox7.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox7.Location = new System.Drawing.Point(126, 367);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(257, 22);
-            this.textBox7.TabIndex = 15;
+            this.txt_password.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_password.Location = new System.Drawing.Point(126, 367);
+            this.txt_password.Name = "txt_password";
+            this.txt_password.Size = new System.Drawing.Size(257, 22);
+            this.txt_password.TabIndex = 15;
             // 
-            // textBox6
+            // txt_contact
             // 
-            this.textBox6.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox6.Location = new System.Drawing.Point(126, 310);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(542, 22);
-            this.textBox6.TabIndex = 14;
+            this.txt_contact.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_contact.Location = new System.Drawing.Point(126, 310);
+            this.txt_contact.Name = "txt_contact";
+            this.txt_contact.Size = new System.Drawing.Size(542, 22);
+            this.txt_contact.TabIndex = 14;
             // 
-            // textBox5
+            // txt_bdate
             // 
-            this.textBox5.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.Location = new System.Drawing.Point(126, 253);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(542, 22);
-            this.textBox5.TabIndex = 13;
+            this.txt_bdate.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_bdate.Location = new System.Drawing.Point(126, 253);
+            this.txt_bdate.Name = "txt_bdate";
+            this.txt_bdate.Size = new System.Drawing.Size(542, 22);
+            this.txt_bdate.TabIndex = 13;
             // 
-            // textBox4
+            // txt_email
             // 
-            this.textBox4.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox4.Location = new System.Drawing.Point(126, 196);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(542, 22);
-            this.textBox4.TabIndex = 12;
+            this.txt_email.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_email.Location = new System.Drawing.Point(126, 196);
+            this.txt_email.Name = "txt_email";
+            this.txt_email.Size = new System.Drawing.Size(542, 22);
+            this.txt_email.TabIndex = 12;
             // 
-            // textBox3
+            // txt_username
             // 
-            this.textBox3.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox3.Location = new System.Drawing.Point(126, 140);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(542, 22);
-            this.textBox3.TabIndex = 11;
+            this.txt_username.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_username.Location = new System.Drawing.Point(126, 140);
+            this.txt_username.Name = "txt_username";
+            this.txt_username.Size = new System.Drawing.Size(542, 22);
+            this.txt_username.TabIndex = 11;
             // 
-            // textBox2
+            // txt_lastname
             // 
-            this.textBox2.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(411, 86);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(257, 22);
-            this.textBox2.TabIndex = 10;
+            this.txt_lastname.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_lastname.Location = new System.Drawing.Point(411, 86);
+            this.txt_lastname.Name = "txt_lastname";
+            this.txt_lastname.Size = new System.Drawing.Size(257, 22);
+            this.txt_lastname.TabIndex = 10;
             // 
-            // textBox1
+            // txt_firstname
             // 
-            this.textBox1.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(126, 86);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(257, 22);
-            this.textBox1.TabIndex = 9;
+            this.txt_firstname.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txt_firstname.Location = new System.Drawing.Point(126, 86);
+            this.txt_firstname.Name = "txt_firstname";
+            this.txt_firstname.Size = new System.Drawing.Size(257, 22);
+            this.txt_firstname.TabIndex = 9;
             // 
             // label11
             // 
@@ -312,16 +323,6 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Sign up";
             // 
-            // pblogo
-            // 
-            this.pblogo.Image = global::CCP_FinalProj.Properties.Resources.IMG_1539_removebg_preview;
-            this.pblogo.Location = new System.Drawing.Point(569, 4);
-            this.pblogo.Name = "pblogo";
-            this.pblogo.Size = new System.Drawing.Size(134, 86);
-            this.pblogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pblogo.TabIndex = 3;
-            this.pblogo.TabStop = false;
-            // 
             // signup
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -338,9 +339,9 @@
             this.Load += new System.EventHandler(this.signup_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pblogo)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pblogo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -359,16 +360,16 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_lastname;
+        private System.Windows.Forms.TextBox txt_firstname;
+        private System.Windows.Forms.TextBox txt_username;
         private System.Windows.Forms.LinkLabel terms;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.CheckBox cb_terms;
+        private System.Windows.Forms.TextBox txt_confirm;
+        private System.Windows.Forms.TextBox txt_password;
+        private System.Windows.Forms.TextBox txt_contact;
+        private System.Windows.Forms.TextBox txt_bdate;
+        private System.Windows.Forms.TextBox txt_email;
         private System.Windows.Forms.Label lbhome;
         private System.Windows.Forms.Button btnconfirm;
         private System.Windows.Forms.PictureBox pblogo;

@@ -50,5 +50,23 @@ namespace CCP_FinalProj
             terms_and_condition TandC= new terms_and_condition();
             TandC.Show();
         }
+
+        private void btnconfirm_Click(object sender, EventArgs e)
+        {
+            // Information
+            string firstname = txt_firstname.Text;
+            string lastname = txt_lastname.Text;
+            string username = txt_username.Text;
+            string email = txt_email.Text;
+            string bdate = txt_bdate.Text;
+            string contact = txt_contact.Text;
+
+            // Password
+            string password = txt_password.Text;
+            string confirm = txt_confirm.Text; 
+
+            // Terms and Agreements Checkbox
+            bool termsAgreed = cb_terms.Checked;
+        }
     }
 }
