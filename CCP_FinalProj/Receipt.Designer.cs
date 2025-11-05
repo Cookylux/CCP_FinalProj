@@ -58,6 +58,12 @@
             this.lbl_cost = new System.Windows.Forms.Label();
             this.lbl_discount = new System.Windows.Forms.Label();
             this.lbl_totalcost = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.lbl_cleaningfee = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.lbl_cookingfee = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.lbl_damagefee = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pblogo)).BeginInit();
             this.SuspendLayout();
@@ -164,7 +170,7 @@
             this.label9.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label9.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.Info;
-            this.label9.Location = new System.Drawing.Point(34, 523);
+            this.label9.Location = new System.Drawing.Point(34, 500);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(79, 23);
             this.label9.TabIndex = 8;
@@ -176,7 +182,7 @@
             this.label10.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label10.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.Info;
-            this.label10.Location = new System.Drawing.Point(34, 558);
+            this.label10.Location = new System.Drawing.Point(34, 538);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(94, 23);
             this.label10.TabIndex = 9;
@@ -188,7 +194,7 @@
             this.label11.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label11.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.Info;
-            this.label11.Location = new System.Drawing.Point(34, 688);
+            this.label11.Location = new System.Drawing.Point(34, 641);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(81, 23);
             this.label11.TabIndex = 10;
@@ -197,7 +203,7 @@
             // btn_backhome
             // 
             this.btn_backhome.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_backhome.Location = new System.Drawing.Point(270, 831);
+            this.btn_backhome.Location = new System.Drawing.Point(270, 891);
             this.btn_backhome.Name = "btn_backhome";
             this.btn_backhome.Size = new System.Drawing.Size(144, 44);
             this.btn_backhome.TabIndex = 11;
@@ -244,7 +250,7 @@
             this.label12.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label12.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.Info;
-            this.label12.Location = new System.Drawing.Point(34, 654);
+            this.label12.Location = new System.Drawing.Point(34, 602);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(48, 23);
             this.label12.TabIndex = 14;
@@ -256,7 +262,7 @@
             this.label13.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label13.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.SystemColors.Info;
-            this.label13.Location = new System.Drawing.Point(34, 721);
+            this.label13.Location = new System.Drawing.Point(34, 677);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(89, 23);
             this.label13.TabIndex = 15;
@@ -364,7 +370,7 @@
             this.lbl_checkin.BackColor = System.Drawing.SystemColors.ControlText;
             this.lbl_checkin.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_checkin.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_checkin.Location = new System.Drawing.Point(208, 523);
+            this.lbl_checkin.Location = new System.Drawing.Point(208, 500);
             this.lbl_checkin.Name = "lbl_checkin";
             this.lbl_checkin.Size = new System.Drawing.Size(86, 20);
             this.lbl_checkin.TabIndex = 24;
@@ -376,7 +382,7 @@
             this.lbl_checkout.BackColor = System.Drawing.SystemColors.ControlText;
             this.lbl_checkout.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_checkout.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_checkout.Location = new System.Drawing.Point(208, 563);
+            this.lbl_checkout.Location = new System.Drawing.Point(208, 540);
             this.lbl_checkout.Name = "lbl_checkout";
             this.lbl_checkout.Size = new System.Drawing.Size(95, 20);
             this.lbl_checkout.TabIndex = 25;
@@ -388,7 +394,7 @@
             this.lbl_cost.BackColor = System.Drawing.SystemColors.ControlText;
             this.lbl_cost.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_cost.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_cost.Location = new System.Drawing.Point(208, 654);
+            this.lbl_cost.Location = new System.Drawing.Point(208, 602);
             this.lbl_cost.Name = "lbl_cost";
             this.lbl_cost.Size = new System.Drawing.Size(60, 20);
             this.lbl_cost.TabIndex = 26;
@@ -400,7 +406,7 @@
             this.lbl_discount.BackColor = System.Drawing.SystemColors.ControlText;
             this.lbl_discount.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_discount.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_discount.Location = new System.Drawing.Point(208, 688);
+            this.lbl_discount.Location = new System.Drawing.Point(208, 643);
             this.lbl_discount.Name = "lbl_discount";
             this.lbl_discount.Size = new System.Drawing.Size(91, 20);
             this.lbl_discount.TabIndex = 27;
@@ -412,18 +418,96 @@
             this.lbl_totalcost.BackColor = System.Drawing.SystemColors.ControlText;
             this.lbl_totalcost.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbl_totalcost.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbl_totalcost.Location = new System.Drawing.Point(208, 721);
+            this.lbl_totalcost.Location = new System.Drawing.Point(208, 680);
             this.lbl_totalcost.Name = "lbl_totalcost";
             this.lbl_totalcost.Size = new System.Drawing.Size(89, 20);
             this.lbl_totalcost.TabIndex = 28;
             this.lbl_totalcost.Text = "lbl_totalcost";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.label14.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.SystemColors.Info;
+            this.label14.Location = new System.Drawing.Point(34, 752);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(109, 23);
+            this.label14.TabIndex = 29;
+            this.label14.Text = "Cleaning fee:";
+            // 
+            // lbl_cleaningfee
+            // 
+            this.lbl_cleaningfee.AutoSize = true;
+            this.lbl_cleaningfee.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lbl_cleaningfee.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cleaningfee.ForeColor = System.Drawing.SystemColors.Control;
+            this.lbl_cleaningfee.Location = new System.Drawing.Point(208, 752);
+            this.lbl_cleaningfee.Name = "lbl_cleaningfee";
+            this.lbl_cleaningfee.Size = new System.Drawing.Size(108, 20);
+            this.lbl_cleaningfee.TabIndex = 30;
+            this.lbl_cleaningfee.Text = "lbl_cleaningfee";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.label16.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.SystemColors.Info;
+            this.label16.Location = new System.Drawing.Point(34, 786);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(105, 23);
+            this.label16.TabIndex = 31;
+            this.label16.Text = "Cooking fee:";
+            // 
+            // lbl_cookingfee
+            // 
+            this.lbl_cookingfee.AutoSize = true;
+            this.lbl_cookingfee.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lbl_cookingfee.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_cookingfee.ForeColor = System.Drawing.SystemColors.Control;
+            this.lbl_cookingfee.Location = new System.Drawing.Point(207, 788);
+            this.lbl_cookingfee.Name = "lbl_cookingfee";
+            this.lbl_cookingfee.Size = new System.Drawing.Size(106, 20);
+            this.lbl_cookingfee.TabIndex = 32;
+            this.lbl_cookingfee.Text = "lbl_cookingfee";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
+            this.label18.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.SystemColors.Info;
+            this.label18.Location = new System.Drawing.Point(34, 823);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(106, 23);
+            this.label18.TabIndex = 33;
+            this.label18.Text = "Damage fee:";
+            // 
+            // lbl_damagefee
+            // 
+            this.lbl_damagefee.AutoSize = true;
+            this.lbl_damagefee.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lbl_damagefee.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_damagefee.ForeColor = System.Drawing.SystemColors.Control;
+            this.lbl_damagefee.Location = new System.Drawing.Point(208, 823);
+            this.lbl_damagefee.Name = "lbl_damagefee";
+            this.lbl_damagefee.Size = new System.Drawing.Size(105, 20);
+            this.lbl_damagefee.TabIndex = 34;
+            this.lbl_damagefee.Text = "lbl_damagefee";
             // 
             // Receipt
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CCP_FinalProj.Properties.Resources.slytherinbg;
-            this.ClientSize = new System.Drawing.Size(663, 887);
+            this.ClientSize = new System.Drawing.Size(663, 962);
+            this.Controls.Add(this.lbl_damagefee);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.lbl_cookingfee);
+            this.Controls.Add(this.label16);
+            this.Controls.Add(this.lbl_cleaningfee);
+            this.Controls.Add(this.label14);
             this.Controls.Add(this.lbl_totalcost);
             this.Controls.Add(this.lbl_discount);
             this.Controls.Add(this.lbl_cost);
@@ -495,5 +579,11 @@
         private System.Windows.Forms.Label lbl_totalcost;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.PictureBox pblogo;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label lbl_cleaningfee;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label lbl_cookingfee;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.Label lbl_damagefee;
     }
 }

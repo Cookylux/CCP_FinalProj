@@ -27,7 +27,7 @@ namespace CCP_FinalProj
                 panel1.BackColor = darkred;
 
                 Color yellow = ColorTranslator.FromHtml("#eeba30");
-                label2.ForeColor = yellow;
+                lbl_logout.ForeColor = yellow;
                 label1.ForeColor = yellow;
                 label3.ForeColor = yellow;
 
@@ -44,7 +44,7 @@ namespace CCP_FinalProj
                 panel1.BackColor = darkgreen;
                 Color lightsilver = ColorTranslator.FromHtml("#aaaaaa");
                 label1.ForeColor = lightsilver;
-                label2.ForeColor = lightsilver;
+                lbl_logout.ForeColor = lightsilver;
                 label3.ForeColor = lightsilver;
                 
                 pblogo.Image = Properties.Resources.IMG_1539_removebg_preview;
@@ -56,7 +56,7 @@ namespace CCP_FinalProj
                 panel1.BackColor = darkblue;
                 Color gold = ColorTranslator.FromHtml("#946b2d");
                 label1.ForeColor = gold;
-                label2.ForeColor = gold;
+                lbl_logout.ForeColor = gold;
                 label3.ForeColor = gold;
                
                 pblogo.Image = Properties.Resources.IMG_1539_removebg_preview;
@@ -70,7 +70,7 @@ namespace CCP_FinalProj
                 panel1.BackColor = darkbrown;
                 Color lightcanary = ColorTranslator.FromHtml("#f0c75e");
                 label1.ForeColor = lightcanary;
-                label2.ForeColor = lightcanary;
+                lbl_logout.ForeColor = lightcanary;
                 label3.ForeColor = lightcanary;
                 
                 pblogo.Image = Properties.Resources.IMG_1540_removebg_preview;
@@ -84,7 +84,7 @@ namespace CCP_FinalProj
             Color darkred = ColorTranslator.FromHtml("#740001");
             panel1.BackColor = darkred;
             Color yellow = ColorTranslator.FromHtml("#eeba30");
-            label2.ForeColor = yellow;
+            lbl_logout.ForeColor = yellow;
             label1.ForeColor = yellow;
             label3.ForeColor = yellow;
             

@@ -49,7 +49,7 @@ namespace CCP_FinalProj
                 
                 this.BackgroundImage = Properties.Resources._9f3365782b2bc5dbe8bbfd103b1f5e7c;
                 lblogin.ForeColor = Color.AntiqueWhite;
-                lbsignup.ForeColor = Color.AntiqueWhite;
+                lbl_signup.ForeColor = Color.AntiqueWhite;
 
                 pblogo.Image = Properties.Resources._567609274_1336539038208660_6300572118458079317_n_removebg_preview;
 
@@ -66,7 +66,7 @@ namespace CCP_FinalProj
 
                 Color yellow = ColorTranslator.FromHtml("#eeba30");
                 lblogin.ForeColor = yellow;
-                lbsignup.ForeColor = yellow;
+                lbl_signup.ForeColor = yellow;
 
                 pblogo.Image = Properties.Resources._567609274_1336539038208660_6300572118458079317_n_removebg_preview;
             }
@@ -79,7 +79,7 @@ namespace CCP_FinalProj
                 this.BackgroundImage = Properties.Resources.slytherin;
                 Color lightsilver = ColorTranslator.FromHtml("#aaaaaa");
                 lblogin.ForeColor = lightsilver;
-                lbsignup.ForeColor = lightsilver;
+                lbl_signup.ForeColor = lightsilver;
                 Color green = ColorTranslator.FromHtml("#54755a");
                 tabPage3.BackColor = green;
                 
@@ -94,7 +94,7 @@ namespace CCP_FinalProj
                 this.BackgroundImage = Properties.Resources.hufflepuff;
                 Color lightcanary = ColorTranslator.FromHtml("#f0c75e");
                 lblogin.ForeColor = lightcanary;
-                lbsignup.ForeColor = lightcanary;
+                lbl_signup.ForeColor = lightcanary;
                 Color dutchwhite = ColorTranslator.FromHtml("#efdfb7");
                 tabPage4.BackColor = dutchwhite;
                 
