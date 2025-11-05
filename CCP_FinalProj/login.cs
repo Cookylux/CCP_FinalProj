@@ -22,7 +22,7 @@ namespace CCP_FinalProj
             Color darkblue = ColorTranslator.FromHtml("#0e1a40");
             panel2.BackColor = Color.FromArgb(128, darkblue);
             Color blue = ColorTranslator.FromHtml("#222f5b");
-            btnlogin.BackColor = blue;
+            btn_login.BackColor = blue;
             panel1.BackColor = blue;
         }
 

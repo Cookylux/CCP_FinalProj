@@ -32,6 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label13 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.pblogo = new System.Windows.Forms.PictureBox();
             this.txt_firstname = new System.Windows.Forms.TextBox();
@@ -63,7 +64,6 @@
             this.cb_weekend = new System.Windows.Forms.CheckBox();
             this.cb_senior = new System.Windows.Forms.CheckBox();
             this.cb_family = new System.Windows.Forms.CheckBox();
-            this.label13 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pblogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_age)).BeginInit();
@@ -77,10 +77,9 @@
             this.label1.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(9, 110);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(12, 135);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 21);
+            this.label1.Size = new System.Drawing.Size(110, 28);
             this.label1.TabIndex = 0;
             this.label1.Text = "First Name:";
             // 
@@ -90,10 +89,9 @@
             this.label2.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label2.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.Control;
-            this.label2.Location = new System.Drawing.Point(11, 144);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(15, 177);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(87, 21);
+            this.label2.Size = new System.Drawing.Size(107, 28);
             this.label2.TabIndex = 1;
             this.label2.Text = "Last Name:";
             // 
@@ -103,10 +101,9 @@
             this.label3.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label3.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(11, 182);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(15, 224);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(40, 21);
+            this.label3.Size = new System.Drawing.Size(51, 28);
             this.label3.TabIndex = 2;
             this.label3.Text = "Age:";
             // 
@@ -117,21 +114,33 @@
             this.panel1.Controls.Add(this.label15);
             this.panel1.Controls.Add(this.pblogo);
             this.panel1.Location = new System.Drawing.Point(1, 1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(817, 83);
+            this.panel1.Size = new System.Drawing.Size(1089, 102);
             this.panel1.TabIndex = 3;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.AntiqueWhite;
+            this.label13.Location = new System.Drawing.Point(941, 46);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(89, 24);
+            this.label13.TabIndex = 35;
+            this.label13.Text = "Log out";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label15
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Georgia", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.SystemColors.Control;
-            this.label15.Location = new System.Drawing.Point(115, 33);
-            this.label15.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label15.Location = new System.Drawing.Point(153, 41);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(535, 23);
+            this.label15.Size = new System.Drawing.Size(667, 29);
             this.label15.TabIndex = 1;
             this.label15.Text = "Fill out your booking details to experience a magical comfort";
             // 
@@ -139,10 +148,10 @@
             // 
             this.pblogo.BackgroundImage = global::CCP_FinalProj.Properties.Resources.IMG_1539_removebg_preview;
             this.pblogo.Image = global::CCP_FinalProj.Properties.Resources.IMG_1539_removebg_preview;
-            this.pblogo.Location = new System.Drawing.Point(22, 9);
-            this.pblogo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pblogo.Location = new System.Drawing.Point(29, 11);
+            this.pblogo.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pblogo.Name = "pblogo";
-            this.pblogo.Size = new System.Drawing.Size(75, 63);
+            this.pblogo.Size = new System.Drawing.Size(100, 78);
             this.pblogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pblogo.TabIndex = 0;
             this.pblogo.TabStop = false;
@@ -152,38 +161,38 @@
             this.txt_firstname.BackColor = System.Drawing.SystemColors.Window;
             this.txt_firstname.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txt_firstname.ForeColor = System.Drawing.SystemColors.WindowText;
-            this.txt_firstname.Location = new System.Drawing.Point(120, 110);
-            this.txt_firstname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_firstname.Location = new System.Drawing.Point(160, 135);
+            this.txt_firstname.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_firstname.Name = "txt_firstname";
-            this.txt_firstname.Size = new System.Drawing.Size(152, 26);
+            this.txt_firstname.Size = new System.Drawing.Size(201, 30);
             this.txt_firstname.TabIndex = 4;
             // 
             // txt_lastname
             // 
             this.txt_lastname.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_lastname.Location = new System.Drawing.Point(120, 144);
-            this.txt_lastname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_lastname.Location = new System.Drawing.Point(160, 177);
+            this.txt_lastname.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_lastname.Name = "txt_lastname";
-            this.txt_lastname.Size = new System.Drawing.Size(152, 26);
+            this.txt_lastname.Size = new System.Drawing.Size(201, 30);
             this.txt_lastname.TabIndex = 5;
             this.txt_lastname.TextChanged += new System.EventHandler(this.lblLastname_TextChanged);
             // 
             // dtp_checkin
             // 
             this.dtp_checkin.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtp_checkin.Location = new System.Drawing.Point(148, 355);
-            this.dtp_checkin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_checkin.Location = new System.Drawing.Point(197, 437);
+            this.dtp_checkin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtp_checkin.Name = "dtp_checkin";
-            this.dtp_checkin.Size = new System.Drawing.Size(246, 26);
+            this.dtp_checkin.Size = new System.Drawing.Size(327, 30);
             this.dtp_checkin.TabIndex = 6;
             // 
             // dtp_checkout
             // 
             this.dtp_checkout.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtp_checkout.Location = new System.Drawing.Point(531, 355);
-            this.dtp_checkout.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dtp_checkout.Location = new System.Drawing.Point(708, 437);
+            this.dtp_checkout.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dtp_checkout.Name = "dtp_checkout";
-            this.dtp_checkout.Size = new System.Drawing.Size(246, 26);
+            this.dtp_checkout.Size = new System.Drawing.Size(327, 30);
             this.dtp_checkout.TabIndex = 7;
             // 
             // label4
@@ -192,10 +201,9 @@
             this.label4.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label4.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.Control;
-            this.label4.Location = new System.Drawing.Point(70, 355);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Location = new System.Drawing.Point(93, 437);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(72, 21);
+            this.label4.Size = new System.Drawing.Size(89, 28);
             this.label4.TabIndex = 8;
             this.label4.Text = "Check in:";
             // 
@@ -205,10 +213,9 @@
             this.label5.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label5.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.label5.Location = new System.Drawing.Point(442, 354);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(589, 436);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 21);
+            this.label5.Size = new System.Drawing.Size(103, 28);
             this.label5.TabIndex = 9;
             this.label5.Text = "Check out:";
             this.label5.Click += new System.EventHandler(this.label5_Click);
@@ -216,19 +223,19 @@
             // txt_email
             // 
             this.txt_email.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_email.Location = new System.Drawing.Point(120, 218);
-            this.txt_email.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_email.Location = new System.Drawing.Point(160, 268);
+            this.txt_email.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_email.Name = "txt_email";
-            this.txt_email.Size = new System.Drawing.Size(152, 26);
+            this.txt_email.Size = new System.Drawing.Size(201, 30);
             this.txt_email.TabIndex = 10;
             // 
             // txt_contact
             // 
             this.txt_contact.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_contact.Location = new System.Drawing.Point(120, 254);
-            this.txt_contact.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_contact.Location = new System.Drawing.Point(160, 313);
+            this.txt_contact.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_contact.Name = "txt_contact";
-            this.txt_contact.Size = new System.Drawing.Size(152, 26);
+            this.txt_contact.Size = new System.Drawing.Size(201, 30);
             this.txt_contact.TabIndex = 15;
             // 
             // label6
@@ -237,10 +244,9 @@
             this.label6.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label6.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.Control;
-            this.label6.Location = new System.Drawing.Point(11, 218);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Location = new System.Drawing.Point(15, 268);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 21);
+            this.label6.Size = new System.Drawing.Size(63, 28);
             this.label6.TabIndex = 13;
             this.label6.Text = "Email:";
             // 
@@ -250,29 +256,28 @@
             this.label7.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label7.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.Control;
-            this.label7.Location = new System.Drawing.Point(11, 253);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Location = new System.Drawing.Point(15, 311);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(91, 21);
+            this.label7.Size = new System.Drawing.Size(116, 28);
             this.label7.TabIndex = 14;
             this.label7.Text = "Contact No:";
             // 
             // numericUpDown_age
             // 
             this.numericUpDown_age.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown_age.Location = new System.Drawing.Point(120, 184);
-            this.numericUpDown_age.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown_age.Location = new System.Drawing.Point(160, 226);
+            this.numericUpDown_age.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericUpDown_age.Name = "numericUpDown_age";
-            this.numericUpDown_age.Size = new System.Drawing.Size(101, 26);
+            this.numericUpDown_age.Size = new System.Drawing.Size(135, 30);
             this.numericUpDown_age.TabIndex = 16;
             // 
             // numericUpDown_adults
             // 
             this.numericUpDown_adults.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown_adults.Location = new System.Drawing.Point(446, 110);
-            this.numericUpDown_adults.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown_adults.Location = new System.Drawing.Point(595, 135);
+            this.numericUpDown_adults.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericUpDown_adults.Name = "numericUpDown_adults";
-            this.numericUpDown_adults.Size = new System.Drawing.Size(92, 26);
+            this.numericUpDown_adults.Size = new System.Drawing.Size(123, 30);
             this.numericUpDown_adults.TabIndex = 17;
             // 
             // label8
@@ -281,10 +286,9 @@
             this.label8.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label8.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.Control;
-            this.label8.Location = new System.Drawing.Point(316, 110);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Location = new System.Drawing.Point(421, 135);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(103, 21);
+            this.label8.Size = new System.Drawing.Size(131, 28);
             this.label8.TabIndex = 18;
             this.label8.Text = "No. of Adults:";
             // 
@@ -294,20 +298,19 @@
             this.label9.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label9.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.Control;
-            this.label9.Location = new System.Drawing.Point(316, 144);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Location = new System.Drawing.Point(421, 177);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(118, 21);
+            this.label9.Size = new System.Drawing.Size(148, 28);
             this.label9.TabIndex = 19;
             this.label9.Text = "No. of Children:";
             // 
             // numericUpDown_children
             // 
             this.numericUpDown_children.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown_children.Location = new System.Drawing.Point(446, 144);
-            this.numericUpDown_children.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.numericUpDown_children.Location = new System.Drawing.Point(595, 177);
+            this.numericUpDown_children.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.numericUpDown_children.Name = "numericUpDown_children";
-            this.numericUpDown_children.Size = new System.Drawing.Size(90, 26);
+            this.numericUpDown_children.Size = new System.Drawing.Size(120, 30);
             this.numericUpDown_children.TabIndex = 20;
             // 
             // label10
@@ -316,10 +319,9 @@
             this.label10.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label10.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.Control;
-            this.label10.Location = new System.Drawing.Point(316, 219);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Location = new System.Drawing.Point(421, 270);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(91, 21);
+            this.label10.Size = new System.Drawing.Size(114, 28);
             this.label10.TabIndex = 21;
             this.label10.Text = "Room Type:";
             // 
@@ -329,10 +331,9 @@
             this.label11.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label11.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.Control;
-            this.label11.Location = new System.Drawing.Point(317, 255);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Location = new System.Drawing.Point(423, 314);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(118, 21);
+            this.label11.Size = new System.Drawing.Size(146, 28);
             this.label11.TabIndex = 22;
             this.label11.Text = "Room Number:";
             // 
@@ -340,20 +341,27 @@
             // 
             this.cmb_roomtype.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmb_roomtype.FormattingEnabled = true;
-            this.cmb_roomtype.Location = new System.Drawing.Point(446, 220);
-            this.cmb_roomtype.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmb_roomtype.Items.AddRange(new object[] {
+            "Single Room",
+            "Double Room",
+            "Family Room",
+            "Deluxe Room",
+            "Suite Room",
+            "Presidential Suite"});
+            this.cmb_roomtype.Location = new System.Drawing.Point(595, 271);
+            this.cmb_roomtype.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb_roomtype.Name = "cmb_roomtype";
-            this.cmb_roomtype.Size = new System.Drawing.Size(118, 26);
+            this.cmb_roomtype.Size = new System.Drawing.Size(156, 32);
             this.cmb_roomtype.TabIndex = 23;
             // 
             // cmb_roomnumber
             // 
             this.cmb_roomnumber.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmb_roomnumber.FormattingEnabled = true;
-            this.cmb_roomnumber.Location = new System.Drawing.Point(446, 256);
-            this.cmb_roomnumber.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cmb_roomnumber.Location = new System.Drawing.Point(595, 315);
+            this.cmb_roomnumber.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cmb_roomnumber.Name = "cmb_roomnumber";
-            this.cmb_roomnumber.Size = new System.Drawing.Size(118, 26);
+            this.cmb_roomnumber.Size = new System.Drawing.Size(156, 32);
             this.cmb_roomnumber.TabIndex = 24;
             // 
             // label12
@@ -362,29 +370,28 @@
             this.label12.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label12.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.Control;
-            this.label12.Location = new System.Drawing.Point(182, 428);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(243, 527);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(80, 21);
+            this.label12.Size = new System.Drawing.Size(102, 28);
             this.label12.TabIndex = 25;
             this.label12.Text = "Total Cost:";
             // 
             // txt_totalcost
             // 
             this.txt_totalcost.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_totalcost.Location = new System.Drawing.Point(262, 427);
-            this.txt_totalcost.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txt_totalcost.Location = new System.Drawing.Point(349, 526);
+            this.txt_totalcost.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txt_totalcost.Name = "txt_totalcost";
-            this.txt_totalcost.Size = new System.Drawing.Size(121, 26);
+            this.txt_totalcost.Size = new System.Drawing.Size(160, 30);
             this.txt_totalcost.TabIndex = 26;
             // 
             // btn_compute
             // 
             this.btn_compute.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_compute.Location = new System.Drawing.Point(441, 424);
-            this.btn_compute.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_compute.Location = new System.Drawing.Point(588, 522);
+            this.btn_compute.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_compute.Name = "btn_compute";
-            this.btn_compute.Size = new System.Drawing.Size(94, 29);
+            this.btn_compute.Size = new System.Drawing.Size(125, 36);
             this.btn_compute.TabIndex = 27;
             this.btn_compute.Text = "Compute";
             this.btn_compute.UseVisualStyleBackColor = true;
@@ -392,10 +399,10 @@
             // btn_pay
             // 
             this.btn_pay.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_pay.Location = new System.Drawing.Point(540, 424);
-            this.btn_pay.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btn_pay.Location = new System.Drawing.Point(720, 522);
+            this.btn_pay.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btn_pay.Name = "btn_pay";
-            this.btn_pay.Size = new System.Drawing.Size(94, 29);
+            this.btn_pay.Size = new System.Drawing.Size(125, 36);
             this.btn_pay.TabIndex = 28;
             this.btn_pay.Text = "Pay";
             this.btn_pay.UseVisualStyleBackColor = true;
@@ -404,10 +411,9 @@
             // lbl_back
             // 
             this.lbl_back.AutoSize = true;
-            this.lbl_back.Location = new System.Drawing.Point(9, 434);
-            this.lbl_back.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lbl_back.Location = new System.Drawing.Point(12, 534);
             this.lbl_back.Name = "lbl_back";
-            this.lbl_back.Size = new System.Drawing.Size(32, 13);
+            this.lbl_back.Size = new System.Drawing.Size(38, 16);
             this.lbl_back.TabIndex = 29;
             this.lbl_back.Text = "Back";
             // 
@@ -417,10 +423,10 @@
             this.cb_student.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.cb_student.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_student.ForeColor = System.Drawing.SystemColors.Control;
-            this.cb_student.Location = new System.Drawing.Point(613, 144);
-            this.cb_student.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_student.Location = new System.Drawing.Point(817, 177);
+            this.cb_student.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cb_student.Name = "cb_student";
-            this.cb_student.Size = new System.Drawing.Size(76, 23);
+            this.cb_student.Size = new System.Drawing.Size(91, 27);
             this.cb_student.TabIndex = 30;
             this.cb_student.Text = "Student";
             this.cb_student.UseVisualStyleBackColor = false;
@@ -431,10 +437,9 @@
             this.label14.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.label14.Font = new System.Drawing.Font("Nirmala UI", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.SystemColors.Control;
-            this.label14.Location = new System.Drawing.Point(609, 109);
-            this.label14.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label14.Location = new System.Drawing.Point(812, 134);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(81, 21);
+            this.label14.Size = new System.Drawing.Size(101, 28);
             this.label14.TabIndex = 31;
             this.label14.Text = "Discounts:";
             // 
@@ -444,10 +449,10 @@
             this.cb_weekend.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.cb_weekend.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_weekend.ForeColor = System.Drawing.SystemColors.Control;
-            this.cb_weekend.Location = new System.Drawing.Point(613, 197);
-            this.cb_weekend.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_weekend.Location = new System.Drawing.Point(817, 242);
+            this.cb_weekend.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cb_weekend.Name = "cb_weekend";
-            this.cb_weekend.Size = new System.Drawing.Size(130, 23);
+            this.cb_weekend.Size = new System.Drawing.Size(159, 27);
             this.cb_weekend.TabIndex = 32;
             this.cb_weekend.Text = "Weekend Promo";
             this.cb_weekend.UseVisualStyleBackColor = false;
@@ -458,10 +463,10 @@
             this.cb_senior.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.cb_senior.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_senior.ForeColor = System.Drawing.SystemColors.Control;
-            this.cb_senior.Location = new System.Drawing.Point(613, 171);
-            this.cb_senior.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_senior.Location = new System.Drawing.Point(817, 210);
+            this.cb_senior.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cb_senior.Name = "cb_senior";
-            this.cb_senior.Size = new System.Drawing.Size(111, 23);
+            this.cb_senior.Size = new System.Drawing.Size(137, 27);
             this.cb_senior.TabIndex = 33;
             this.cb_senior.Text = "Senior Citizen";
             this.cb_senior.UseVisualStyleBackColor = false;
@@ -472,32 +477,20 @@
             this.cb_family.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.cb_family.Font = new System.Drawing.Font("Nirmala UI", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cb_family.ForeColor = System.Drawing.SystemColors.Control;
-            this.cb_family.Location = new System.Drawing.Point(613, 224);
-            this.cb_family.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.cb_family.Location = new System.Drawing.Point(817, 276);
+            this.cb_family.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cb_family.Name = "cb_family";
-            this.cb_family.Size = new System.Drawing.Size(66, 23);
+            this.cb_family.Size = new System.Drawing.Size(79, 27);
             this.cb_family.TabIndex = 34;
             this.cb_family.Text = "Family";
             this.cb_family.UseVisualStyleBackColor = false;
             // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.label13.Location = new System.Drawing.Point(706, 37);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(70, 18);
-            this.label13.TabIndex = 35;
-            this.label13.Text = "Log out";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
-            // 
             // Reservation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CCP_FinalProj.Properties.Resources.ravenclaw;
-            this.ClientSize = new System.Drawing.Size(820, 467);
+            this.ClientSize = new System.Drawing.Size(1093, 575);
             this.Controls.Add(this.cb_family);
             this.Controls.Add(this.cb_senior);
             this.Controls.Add(this.cb_weekend);
@@ -531,7 +524,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Reservation";
             this.Text = "Reservation";
             this.Load += new System.EventHandler(this.Reservation_Load);

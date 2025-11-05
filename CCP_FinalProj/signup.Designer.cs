@@ -30,7 +30,7 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.pblogo = new System.Windows.Forms.PictureBox();
-            this.lbhome = new System.Windows.Forms.Label();
+            this.lbl_home = new System.Windows.Forms.Label();
             this.lblogin = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnconfirm = new System.Windows.Forms.Button();
@@ -62,43 +62,47 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.DimGray;
             this.panel1.Controls.Add(this.pblogo);
-            this.panel1.Controls.Add(this.lbhome);
+            this.panel1.Controls.Add(this.lbl_home);
             this.panel1.Controls.Add(this.lblogin);
-            this.panel1.Location = new System.Drawing.Point(-2, 0);
+            this.panel1.Location = new System.Drawing.Point(-3, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1273, 94);
+            this.panel1.Size = new System.Drawing.Size(1697, 116);
             this.panel1.TabIndex = 1;
             // 
             // pblogo
             // 
             this.pblogo.Image = global::CCP_FinalProj.Properties.Resources.IMG_1539_removebg_preview;
-            this.pblogo.Location = new System.Drawing.Point(569, 4);
+            this.pblogo.Location = new System.Drawing.Point(759, 5);
+            this.pblogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pblogo.Name = "pblogo";
-            this.pblogo.Size = new System.Drawing.Size(134, 86);
+            this.pblogo.Size = new System.Drawing.Size(179, 106);
             this.pblogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pblogo.TabIndex = 3;
             this.pblogo.TabStop = false;
             // 
-            // lbhome
+            // lbl_home
             // 
-            this.lbhome.AutoSize = true;
-            this.lbhome.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbhome.ForeColor = System.Drawing.Color.Linen;
-            this.lbhome.Location = new System.Drawing.Point(78, 41);
-            this.lbhome.Name = "lbhome";
-            this.lbhome.Size = new System.Drawing.Size(57, 18);
-            this.lbhome.TabIndex = 2;
-            this.lbhome.Text = "Home";
-            this.lbhome.Click += new System.EventHandler(this.label2_Click);
+            this.lbl_home.AutoSize = true;
+            this.lbl_home.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_home.ForeColor = System.Drawing.Color.Linen;
+            this.lbl_home.Location = new System.Drawing.Point(104, 50);
+            this.lbl_home.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbl_home.Name = "lbl_home";
+            this.lbl_home.Size = new System.Drawing.Size(72, 24);
+            this.lbl_home.TabIndex = 2;
+            this.lbl_home.Text = "Home";
+            this.lbl_home.Click += new System.EventHandler(this.label2_Click);
             // 
             // lblogin
             // 
             this.lblogin.AutoSize = true;
             this.lblogin.Font = new System.Drawing.Font("Georgia", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblogin.ForeColor = System.Drawing.Color.Linen;
-            this.lblogin.Location = new System.Drawing.Point(1144, 41);
+            this.lblogin.Location = new System.Drawing.Point(1525, 50);
+            this.lblogin.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblogin.Name = "lblogin";
-            this.lblogin.Size = new System.Drawing.Size(62, 18);
+            this.lblogin.Size = new System.Drawing.Size(78, 24);
             this.lblogin.TabIndex = 1;
             this.lblogin.Text = "Log-in";
             this.lblogin.Click += new System.EventHandler(this.lblogin_Click);
@@ -127,18 +131,20 @@
             this.panel2.Controls.Add(this.label4);
             this.panel2.Controls.Add(this.label3);
             this.panel2.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.panel2.Location = new System.Drawing.Point(234, 139);
+            this.panel2.Location = new System.Drawing.Point(312, 171);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(806, 506);
+            this.panel2.Size = new System.Drawing.Size(1075, 623);
             this.panel2.TabIndex = 2;
             // 
             // btnconfirm
             // 
             this.btnconfirm.BackColor = System.Drawing.Color.DimGray;
             this.btnconfirm.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnconfirm.Location = new System.Drawing.Point(575, 427);
+            this.btnconfirm.Location = new System.Drawing.Point(767, 526);
+            this.btnconfirm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnconfirm.Name = "btnconfirm";
-            this.btnconfirm.Size = new System.Drawing.Size(93, 28);
+            this.btnconfirm.Size = new System.Drawing.Size(124, 34);
             this.btnconfirm.TabIndex = 19;
             this.btnconfirm.Text = "Confirm";
             this.btnconfirm.UseVisualStyleBackColor = false;
@@ -150,9 +156,10 @@
             this.terms.AutoSize = true;
             this.terms.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.terms.LinkColor = System.Drawing.Color.SteelBlue;
-            this.terms.Location = new System.Drawing.Point(233, 396);
+            this.terms.Location = new System.Drawing.Point(311, 487);
+            this.terms.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.terms.Name = "terms";
-            this.terms.Size = new System.Drawing.Size(119, 17);
+            this.terms.Size = new System.Drawing.Size(143, 20);
             this.terms.TabIndex = 18;
             this.terms.TabStop = true;
             this.terms.Text = "terms and condition";
@@ -162,9 +169,10 @@
             // 
             this.cb_terms.AutoSize = true;
             this.cb_terms.Font = new System.Drawing.Font("Palatino Linotype", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cb_terms.Location = new System.Drawing.Point(126, 396);
+            this.cb_terms.Location = new System.Drawing.Point(168, 487);
+            this.cb_terms.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cb_terms.Name = "cb_terms";
-            this.cb_terms.Size = new System.Drawing.Size(115, 21);
+            this.cb_terms.Size = new System.Drawing.Size(134, 24);
             this.cb_terms.TabIndex = 17;
             this.cb_terms.Text = "I agree with the";
             this.cb_terms.UseVisualStyleBackColor = true;
@@ -172,74 +180,83 @@
             // txt_confirm
             // 
             this.txt_confirm.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_confirm.Location = new System.Drawing.Point(411, 367);
+            this.txt_confirm.Location = new System.Drawing.Point(548, 452);
+            this.txt_confirm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_confirm.Name = "txt_confirm";
-            this.txt_confirm.Size = new System.Drawing.Size(257, 22);
+            this.txt_confirm.Size = new System.Drawing.Size(341, 26);
             this.txt_confirm.TabIndex = 16;
             // 
             // txt_password
             // 
             this.txt_password.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_password.Location = new System.Drawing.Point(126, 367);
+            this.txt_password.Location = new System.Drawing.Point(168, 452);
+            this.txt_password.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_password.Name = "txt_password";
-            this.txt_password.Size = new System.Drawing.Size(257, 22);
+            this.txt_password.Size = new System.Drawing.Size(341, 26);
             this.txt_password.TabIndex = 15;
             // 
             // txt_contact
             // 
             this.txt_contact.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_contact.Location = new System.Drawing.Point(126, 310);
+            this.txt_contact.Location = new System.Drawing.Point(168, 382);
+            this.txt_contact.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_contact.Name = "txt_contact";
-            this.txt_contact.Size = new System.Drawing.Size(542, 22);
+            this.txt_contact.Size = new System.Drawing.Size(721, 26);
             this.txt_contact.TabIndex = 14;
             // 
             // txt_bdate
             // 
             this.txt_bdate.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_bdate.Location = new System.Drawing.Point(126, 253);
+            this.txt_bdate.Location = new System.Drawing.Point(168, 311);
+            this.txt_bdate.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_bdate.Name = "txt_bdate";
-            this.txt_bdate.Size = new System.Drawing.Size(542, 22);
+            this.txt_bdate.Size = new System.Drawing.Size(721, 26);
             this.txt_bdate.TabIndex = 13;
             // 
             // txt_email
             // 
             this.txt_email.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_email.Location = new System.Drawing.Point(126, 196);
+            this.txt_email.Location = new System.Drawing.Point(168, 241);
+            this.txt_email.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_email.Name = "txt_email";
-            this.txt_email.Size = new System.Drawing.Size(542, 22);
+            this.txt_email.Size = new System.Drawing.Size(721, 26);
             this.txt_email.TabIndex = 12;
             // 
             // txt_username
             // 
             this.txt_username.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_username.Location = new System.Drawing.Point(126, 140);
+            this.txt_username.Location = new System.Drawing.Point(168, 172);
+            this.txt_username.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_username.Name = "txt_username";
-            this.txt_username.Size = new System.Drawing.Size(542, 22);
+            this.txt_username.Size = new System.Drawing.Size(721, 26);
             this.txt_username.TabIndex = 11;
             // 
             // txt_lastname
             // 
             this.txt_lastname.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_lastname.Location = new System.Drawing.Point(411, 86);
+            this.txt_lastname.Location = new System.Drawing.Point(548, 106);
+            this.txt_lastname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_lastname.Name = "txt_lastname";
-            this.txt_lastname.Size = new System.Drawing.Size(257, 22);
+            this.txt_lastname.Size = new System.Drawing.Size(341, 26);
             this.txt_lastname.TabIndex = 10;
             // 
             // txt_firstname
             // 
             this.txt_firstname.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txt_firstname.Location = new System.Drawing.Point(126, 86);
+            this.txt_firstname.Location = new System.Drawing.Point(168, 106);
+            this.txt_firstname.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_firstname.Name = "txt_firstname";
-            this.txt_firstname.Size = new System.Drawing.Size(257, 22);
+            this.txt_firstname.Size = new System.Drawing.Size(341, 26);
             this.txt_firstname.TabIndex = 9;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(407, 345);
+            this.label11.Location = new System.Drawing.Point(543, 425);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(141, 19);
+            this.label11.Size = new System.Drawing.Size(173, 23);
             this.label11.TabIndex = 8;
             this.label11.Text = "Confirm Password:";
             // 
@@ -247,9 +264,10 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(122, 345);
+            this.label10.Location = new System.Drawing.Point(163, 425);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(81, 19);
+            this.label10.Size = new System.Drawing.Size(99, 23);
             this.label10.TabIndex = 7;
             this.label10.Text = "Password:";
             // 
@@ -257,9 +275,10 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(122, 288);
+            this.label9.Location = new System.Drawing.Point(163, 354);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(126, 19);
+            this.label9.Size = new System.Drawing.Size(156, 23);
             this.label9.TabIndex = 6;
             this.label9.Text = "Contact Number:";
             // 
@@ -267,9 +286,10 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(122, 231);
+            this.label8.Location = new System.Drawing.Point(163, 284);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(175, 19);
+            this.label8.Size = new System.Drawing.Size(220, 23);
             this.label8.TabIndex = 5;
             this.label8.Text = "Birthday: (mm-dd-yyyy)";
             // 
@@ -277,9 +297,10 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(122, 174);
+            this.label7.Location = new System.Drawing.Point(163, 214);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 19);
+            this.label7.Size = new System.Drawing.Size(65, 23);
             this.label7.TabIndex = 4;
             this.label7.Text = "Email:";
             // 
@@ -287,9 +308,10 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(122, 118);
+            this.label6.Location = new System.Drawing.Point(163, 145);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(83, 19);
+            this.label6.Size = new System.Drawing.Size(103, 23);
             this.label6.TabIndex = 3;
             this.label6.Text = "Username:";
             // 
@@ -297,9 +319,10 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(407, 64);
+            this.label5.Location = new System.Drawing.Point(543, 79);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(86, 19);
+            this.label5.Size = new System.Drawing.Size(107, 23);
             this.label5.TabIndex = 2;
             this.label5.Text = "Last Name:";
             // 
@@ -307,9 +330,10 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(122, 64);
+            this.label4.Location = new System.Drawing.Point(163, 79);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(89, 19);
+            this.label4.Size = new System.Drawing.Size(111, 23);
             this.label4.TabIndex = 1;
             this.label4.Text = "First Name:";
             // 
@@ -317,21 +341,23 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Palatino Linotype", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(337, 15);
+            this.label3.Location = new System.Drawing.Point(449, 18);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 37);
+            this.label3.Size = new System.Drawing.Size(143, 46);
             this.label3.TabIndex = 0;
             this.label3.Text = "Sign up";
             // 
             // signup
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::CCP_FinalProj.Properties.Resources.ravenclaw;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1269, 693);
+            this.ClientSize = new System.Drawing.Size(1692, 853);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "signup";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "signup";
@@ -370,7 +396,7 @@
         private System.Windows.Forms.TextBox txt_contact;
         private System.Windows.Forms.TextBox txt_bdate;
         private System.Windows.Forms.TextBox txt_email;
-        private System.Windows.Forms.Label lbhome;
+        private System.Windows.Forms.Label lbl_home;
         private System.Windows.Forms.Button btnconfirm;
         private System.Windows.Forms.PictureBox pblogo;
     }
